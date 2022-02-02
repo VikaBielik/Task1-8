@@ -44,11 +44,11 @@ public class Triangle {
     }
 
     protected static double squareCalculation(double side1, double side2, double side3) {
-        double sP = TrianglePerimeter(side1, side2, side3);
+        double sP = trianglePerimeter(side1, side2, side3);
         return Math.sqrt(sP * (sP - side1) * (sP - side2) * (sP - side3));
     }
 
-    private static double TrianglePerimeter(double side1, double side2, double side3) {
+    private static double trianglePerimeter(double side1, double side2, double side3) {
         return (side1 + side2 + side3) / 2;
     }
 

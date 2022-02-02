@@ -11,9 +11,9 @@ public class main2 {
 
         Scanner in = new Scanner(System.in);
         if (args.length > 0) {
-            for (int i = 0; i < args.length; i++) {
+            for (String arg : args) {
                 try {
-                    number = Long.parseLong(args[i]);
+                    number = Long.parseLong(arg);
                     System.out.println(NumberToText.WordsRus(number));
                 } catch (InputMismatchException e) {
                     System.out.println("Не корректный ввод");

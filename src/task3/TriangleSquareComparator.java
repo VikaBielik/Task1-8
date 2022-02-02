@@ -5,6 +5,7 @@ public class TriangleSquareComparator implements Comparator<Triangle> {
 /*объекты Triangle можно было сравнить и сортировать,
  они должны применять интерфейс Comparable<Triangle>
 
+
  */
     @Override
     public int compare(Triangle o1, Triangle o2) {

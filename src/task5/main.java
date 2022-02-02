@@ -63,7 +63,6 @@ class NumberToText {
     private static String WordsToThousand(int numericalValue, int index) {
         //this.numericalValue = numericalValue;
         //this.index = index;
-
         // разбиваем число на составляющие
         hundreds = numericalValue / 100;
         decimal = (numericalValue - (hundreds * 100)) / 10; //десятичные
